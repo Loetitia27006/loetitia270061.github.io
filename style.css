@@ -1,0 +1,49 @@
+body{
+ text-align: center;
+ background-color: #42f4ee ;
+
+}
+h1 {
+  color: blue
+}
+h2 {
+  color: green
+}
+.title{
+  display : flex;
+  align-content: center;
+  flex-direction: center;
+  justify-content: center;
+}
+
+.cat{
+  width: 100px;
+  height : 80px;
+  border-radius: 50%
+}
+
+.actions{
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.fab { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.logo {
+  font-size: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: red ;
+
+}
+p{
+  border: double;
+}
